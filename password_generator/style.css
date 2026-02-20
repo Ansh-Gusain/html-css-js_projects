@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(163, 243, 216);
+}
+
+#main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+#chotadiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+input{
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+label{
+    font-size: 18px;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(74, 231, 26);
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:active{
+    background-color:rgb(46, 163, 11);
+}
+
+#result{
+    text-align: center;
+    background-color: rgb(186, 213, 237);
+    font-size: 20px;
+    border-radius: 6px;
+}

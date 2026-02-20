@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size:  10em;
+    
+}
+button{
+    width:100px;
+    height:30px;
+    font-size: medium;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(35, 160, 227);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+button:hover{
+    background-color: rgb(4, 27, 40);
+}
+
+
+#buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
