@@ -44,6 +44,4 @@ These projects were created to:
 - Build logic with real examples  
 - Prepare for bigger frontend projects  
 
----
 
-## Folder Structure
