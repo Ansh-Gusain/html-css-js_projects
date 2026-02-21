@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const input = document.querySelector("input");
 const main = document.getElementById("main");
 
-const weatherapi = "5ce07a24af545cd91f15c7a23dcf6ede";
+const weatherapi = "";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
