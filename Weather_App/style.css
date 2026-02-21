@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(203, 230, 231);
+}
+input{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-right: 6px
+}
+button{
+    background-color: rgb(109, 202, 37);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.resulted{
+    background: linear-gradient(180deg,hsl(210,100%,75%),hsl(40,100%,75%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top:20px;
+    padding: 20px;
+    border-radius:10px;
+}
+h1{
+    font-size: 3rem;
+    font-weight:600;
+}
+.tempDisplay{
+    font-size: 3rem;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.623);
+}
+.humidityDisplay{
+    font-size: 1.3rem;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+}
+.descDisplay{
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+}
+.emojiDisplay{
+    font-size: 6rem;
+}
+.parent{
+    background-color: white;
+    padding: 50px;
+}
+.app{
+    margin: 10px;
+    margin-bottom: 20px;
+}

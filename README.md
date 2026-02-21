@@ -7,6 +7,8 @@ These mini projects helped me practice DOM manipulation, CSS layouts, and JavaSc
 
 ## Projects Included
 
+- Weather App
+- Rock Paper Scissor
 - Calculator
 - Counter  
 - Dice  
