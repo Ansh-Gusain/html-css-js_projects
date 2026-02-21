@@ -7,6 +7,7 @@ These mini projects helped me practice DOM manipulation, CSS layouts, and JavaSc
 
 ## Projects Included
 
+- Calculator
 - Counter  
 - Dice  
 - DigitalClock  
@@ -36,7 +37,7 @@ No frameworks — pure fundamentals.
 
 ## Purpose of This Repository
 
-These projects were created to:
+These projects are created to:
 
 - Strengthen JavaScript basics  
 - Practice DOM manipulation  

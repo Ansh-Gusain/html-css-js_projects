@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 174, 255, 0.342);
+}
+h1{
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    background-color: white;
+    border-radius: 20px
+}
+#div_button{
+    margin: 20px;
+}
+button{
+    width: 150px;
+    height: 150px;
+    font-size:5rem;
+    margin: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(216, 234, 250);
+    cursor: pointer;
+    transition: background-color ease-in-out;
+}
+button:hover{
+    background-color: rgb(104, 176, 239);
+}
+
+#playerDisplay,#computerDisplay{
+    margin: 10px;
+    font-size: 3rem;
+    font-weight:500;
+
+}
+
+#result{
+    margin: 10px;
+    font-size: 5rem;
+    font-weight:500;
+}
+
+.win{
+    color: rgb(88, 243, 46);
+    font-weight:bolder;
+}
+
+.loose{
+    color: rgb(238, 51, 51);
+}
